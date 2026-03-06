@@ -2,4 +2,5 @@ Hello, my name is Katie.
 I like eating chocolate and cakes.
 Thank you!
 I am enjoying studying IBI.
+I like listening to Westlife!!
 I am happy that I can push my repo from Visual Studio Code to GitHub.
