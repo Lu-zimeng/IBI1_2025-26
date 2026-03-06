@@ -3,3 +3,4 @@ Though things are going well, I'm just following the guidance. I have no idea wh
 These codes are hard for me to understand...
 Why I have already changed my text in the index.md but my website hasn't changed??
 I think I found some ways to figure my problems out finally
+I don't know why I got those problems and I also don't know how my problems got solved, anyway the problems solved themselves so I can create my own website!
