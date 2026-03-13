@@ -24,10 +24,15 @@ print("Day infected students")
 
 #Start simulation loop: run until all students are infected
 while infected<total_students:
-	print(f"{day:2d} {infected:.1f}")	#Print current day and infected count
+	print("day:",day,"infected:",infected)	#Print current day and infected count
 	infected=infected*(1+growth_rate)	#Calculate infected count for the next day
 	day+=1		#Increment day counter by 1
 
+
+if infected>91:
+	infected=91
+
+
 #print the results
-print(f"{day:2d} {infected:.1f}")
-print(f"\nAll {total_students} students are infected after {day} days.")
+print("day:",day,  "infected:",infected)
+print(infected,"students are infected after",day,"days.")
