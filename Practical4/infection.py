@@ -28,7 +28,7 @@ while infected<total_students:
 	infected=infected*(1+growth_rate)	#Calculate infected count for the next day
 	day+=1		#Increment day counter by 1
 
-
+#set the total infected count at 91
 if infected>91:
 	infected=91
 
