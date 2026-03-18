@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots()
 #defining values and bar colors
-genes = ['TP53', 'EGFR', 'BRCA1', 'PTEN','ESR1']
-expression = [12.4, 15.1, 8.2, 5.3,10.7]
-bar_colors = ['tab:red', 'tab:blue', 'tab:purple', 'tab:orange','tab:olive']
+genes=list(gene_expression.keys())
+expression = list(gene_expression.values())
+bar_colors = ['tab:red', 'tab:blue', 'tab:purple', 'tab:orange','tab:olive','tab:pink']
 
 ax.bar(genes, expression, color=bar_colors)
 #set ylabel and title
@@ -34,8 +34,6 @@ else:
     print("Gene " + gene_of_interest + " is not in the dataset!")
 
 #calculate the average gene expression level
-total_expression=sum(gene_expression.values())
-total_genes=len(gene_expression)
-average_expression= total_expression /total_genes
-
-print("The average gene expression level across all genes is "+str(average_expression))
+import numpy as np
+average=np.mean(expression)
+print("The average gene expression level across all genes is "+str(average))
