@@ -1,7 +1,7 @@
 heart_rates=[72, 60, 126, 85, 90, 59, 76, 131, 88, 121, 64]
-total_heart_rate=sum(heart_rates)
 total_patients=len(heart_rates)
-mean_heart_rate=total_heart_rate/total_patients
+import numpy as np
+mean_heart_rate=np.mean(heart_rates)
 print("There are "+ str(total_patients)+" patients in the dataset. The mean heart rate is: "+ str(mean_heart_rate)+" bpm.")
 
 #Group into categories
@@ -21,12 +21,9 @@ print("The number of normal heart rate patients are:" +str(Normal_heart_rate_pat
 print("The number of high heart rate patients are:"+str(High_heart_rate_patients))
 
 #Determine the largest
-categories=['Low heart rate','Normal heart rate','High heart rate']
-values=[Low_heart_rate_patients,Normal_heart_rate_patients,High_heart_rate_patients]
-max_value=max(values)
-max_index=values.index(max_value)
-max_category=categories[max_index]
-print(max_category +" category contains the largest number of patients.")
+heart_rate_dict={'Low':Low_heart_rate_patients,'Normal':Normal_heart_rate_patients,'High':High_heart_rate_patients}
+most=max(heart_rate_dict,key=heart_rate_dict.get)
+print(most+" category contains the largest number of patients.")
 
 #create a pie chart
 import matplotlib.pyplot as plt
