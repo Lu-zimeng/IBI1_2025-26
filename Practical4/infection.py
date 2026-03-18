@@ -15,16 +15,14 @@
 #Print final results
 
 
-initial_infected=5 	#Define constant:initial number of infected students
+infected=5 	#Define constant:number of infected students
 growth_rate=0.4 	#Define constant: daily infection growth rate (40%)
 total_students=91	#Define constant: total number of students in the class
-infected=initial_infected #Initialize simulation variable: current infected = initial infected
 day=0 #Initialize simulation variable: days passed
-print("Day infected students")
 
 #Start simulation loop: run until all students are infected
 while infected<total_students:
-	print("day:",day,"infected:",infected)	#Print current day and infected count
+	print("day:",day,"infected:",infected)
 	infected=infected*(1+growth_rate)	#Calculate infected count for the next day
 	day+=1		#Increment day counter by 1
 
@@ -34,5 +32,5 @@ if infected>91:
 
 
 #print the results
-print("day:",day,  "infected:",infected)
+print("day:",day,"infected:",infected)
 print(infected,"students are infected after",day,"days.")

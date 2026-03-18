@@ -26,7 +26,7 @@ values=[Low_heart_rate_patients,Normal_heart_rate_patients,High_heart_rate_patie
 max_value=max(values)
 max_index=values.index(max_value)
 max_category=categories[max_index]
-print(max_category +" contains the largest number of patients.")
+print(max_category +" category contains the largest number of patients.")
 
 #create a pie chart
 import matplotlib.pyplot as plt

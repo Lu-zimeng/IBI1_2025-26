@@ -37,4 +37,5 @@ else:
 total_expression=sum(gene_expression.values())
 total_genes=len(gene_expression)
 average_expression= total_expression /total_genes
+
 print("The average gene expression level across all genes is "+str(average_expression))
