@@ -1,14 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 #Define basic variables
-Susceptible=9999
+Susceptible=99 #use smaller population to show more obvious probabilistic difference
 Infected=1
 Recovered=0
-N=10000
+N=100
 beta=0.3
 gamma=0.05
 #create arrays for each variables to track how they evolve over time
-Susceptible_list=[9999]
+Susceptible_list=[99]
 Infected_list=[1]
 Recovered_list=[0]
 #Set up the loop

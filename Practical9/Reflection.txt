@@ -1,0 +1,4 @@
+The 'looking at disease in 2D' task in this practical is a little hard, because it use several new codes and use a completely different plot to show the results.
+The first two tasks are OK because the guidance clearly shows how to use np.random.choice.
+The things I enjoyed more than others is the new funcion np.random.choice, which is an interesting function to generate random numbers.
+The most important thing I learned is to distinguish between different loops, because I usually forget to write some variables inside the loops so it can't be circulated.
