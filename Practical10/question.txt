@@ -1,0 +1,10 @@
+> Question: How has the relationship between the DALYs in China and the UK changed over time? 
+            Are they becoming more similar, less similar?
+> Starting line number: 59
+> Discuss the result: The result shows that mean difference of DALYs between China and the UK is 
+                    decreasing comparing the first 15 years and the last 15 year, meaning that 
+                    the DALYs in China and the UK are becoming similar. This is the result I expected, 
+                    as China has made dramatic improvements in healthcare access, infectious disease control 
+                    like vaccine, and child health after the 1990s, leading to decrease in DALYs. 
+                    The UK, as a developped country, already had a low, slowly declining disease burden during 
+                    this period, so the gap narrowed.
