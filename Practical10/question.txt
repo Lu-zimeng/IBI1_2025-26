@@ -1,6 +1,6 @@
 > Question: How has the relationship between the DALYs in China and the UK changed over time? 
             Are they becoming more similar, less similar?
-> Starting line number: 59
+> Starting line number: 62
 > Discuss the result: The result shows that mean difference of DALYs between China and the UK is 
                     decreasing comparing the first 15 years and the last 15 year, meaning that 
                     the DALYs in China and the UK are becoming similar. This is the result I expected, 
