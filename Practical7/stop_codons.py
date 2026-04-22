@@ -34,6 +34,3 @@ if current_gene != "":
 
 file.close()
 outfile.close()
-
-
-    
