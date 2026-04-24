@@ -71,14 +71,11 @@ difference_list=[]
 for China_dalys,uk_dalys in zip(China_dalys_list,UK_dalys_list):
     difference=China_dalys-uk_dalys
     difference_list.append(difference)
-# > calculate the mean difference of first 15 years and last 15 years respectively
-mean_1990_2005=np.mean(difference_list[0:15])
-mean_2005_2019=np.mean(difference_list[15:])
-print('The mean difference between DALYs in China and the UK during 1990 to 2005 is '+str(mean_1990_2005))
-print('The mean difference between DALYs in China and the UK during 2005 to 2019 is '+str(mean_2005_2019))
-# > determine the relationship
-if mean_1990_2005>mean_2005_2019:
-    print('They are becoming similar.')
-else:
-    print('They are becoming less similar.')
+# > visualize the difference between China and UK
+plt.plot(China.Year,difference_list,'ro')
+plt.xticks(China.Year,rotation=-90)
+plt.xlabel('Year')
+plt.ylabel('Difference between China and UK')
+plt.title('Difference between China and UK over time')
+plt.show()
 
