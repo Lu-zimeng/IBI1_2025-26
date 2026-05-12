@@ -9,9 +9,9 @@ d=b-a
 #Change in population between 2014 and 2025
 e=c-b
 if d>e:
-	print("d is larger")#Scotland population is decelerating
+	print("d is larger, Scotland population is decelerating.")#Scotland population is decelerating
 elif e>d:
-	print("e is larger")#Scotland population is accelerating
+	print("e is larger, Scotland population is accelerating.")#Scotland population is accelerating
 else:
 	print("e=d")
 X=True
