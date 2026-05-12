@@ -2,7 +2,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-
+import os
+# change the working directory to the file
+os.chdir("/Users/katieee/IBI1_2025-26/Practical10")  
 #read the content of the csv. file
 dalys_data=pd.read_csv("dalys-rate-from-all-causes.csv")
 #show the third and fourth colunms for the first 10 rows
