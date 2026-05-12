@@ -1,3 +1,4 @@
+# create a class called food_item containing necessary items
 class food_item:
     def __init__(self,name,calories,protein,carbohydrates,fat):
         self.name=name
@@ -5,6 +6,7 @@ class food_item:
         self.protein=protein
         self.carbohydrates=carbohydrates
         self.fat=fat
+# define a function calculatin the total value of each items
 def calculate_total_nutrition(consumed_items):
     total_calories=0
     total_protein=0
@@ -16,12 +18,15 @@ def calculate_total_nutrition(consumed_items):
         total_carbohydrates+=food.carbohydrates
         total_fat+=food.fat
     return total_calories,total_protein,total_carbohydrates,total_fat
-
+# an example of using the class and the function
+# > let user input the food and the item values
 print("Please type in the nutrition of the food as: food_name calories protein carbohydrates fat")
 print("Input q to end inputing food")
 
 food_list = []
-
+# > start the loop
+# > if user input q then break the loop
+# > store the value
 while True:
     line = input("Type in food:")
     if line.strip().lower() == "q":
@@ -36,14 +41,15 @@ while True:
     food = food_item(name, cal, pro, carb, fat)
     food_list.append(food)
     print("✅Added")
-
+# use the function to calculate the total value
 print("Total nutrition intake:")
 total_cal, total_pro, total_carb, total_fat = calculate_total_nutrition(food_list)
-
+# print the result
 print("Total calories: "+str(total_cal))
 print("Total protein: "+str(total_pro))
 print("Total carbohydrates: "+str(total_carb))
 print("Total fat: "+str(total_fat))
+# print warnings
 if total_cal>2500:
     print("⚠️ Warning: You have consumed more than 2500 calories!")
 if total_fat>90:
