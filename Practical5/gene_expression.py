@@ -18,6 +18,7 @@ bar_colors = ['tab:red', 'tab:blue', 'tab:purple', 'tab:orange','tab:olive','tab
 ax.bar(genes, expression, color=bar_colors)
 #set ylabel and title
 ax.set_ylabel('Gene expression')
+ax.set_xlabel('Gene name')
 ax.set_title('Gene expression levels for 6 genes')
 #show value of every bar
 for i, v in enumerate(expression):
