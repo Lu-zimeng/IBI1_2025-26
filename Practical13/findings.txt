@@ -1,0 +1,14 @@
+The length of human DLX5: 289
+The subcellular localisation of human DLX5: nucleus
+Protein sequence in FASTA format: 
+>sp|P56178|DLX5_HUMAN Homeobox protein DLX-5 OS=Homo sapiens OX=9606 GN=DLX5 PE=1 SV=2
+MTGVFDRRVPSIRSGDFQAPFQTSAAMHHPSQESPTLPESSATDSDYYSPTGGAPHGYCS
+PTSASYGKALNPYQYQYHGVNGSAGSYPAKAYADYSYASSYHQYGGAYNRVPSATNQPEK
+EVTEPEVRMVNGKPKKVRKPRTIYSSFQLAALQRRFQKTQYLALPERAELAASLGLTQTQ
+VKIWFQNKRSKIKKIMKNGEMPPEHSPSSSDPMACNSPQSPAVWEPQGSSRSLSHHPHAH
+PPTSNQSPASSYLENSASWYTSAASSINSHLPPPGSLQHPLALASGTLY
+How many hits did I obtain: 250
+What is the range of the percentage identity of these retrieved alignments: 52.3%-100%
+What is the percentage identity of the alignment with the mouse DLX5 protein: 96.5%
+The meaning of the residues highlighted in blue: amino acids that are identical in two sequences
+The meaning of the residues highlighted in grey: amino acids that are conservative substitution in two sequences
