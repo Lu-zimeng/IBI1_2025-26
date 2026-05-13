@@ -12,3 +12,14 @@ What is the range of the percentage identity of these retrieved alignments: 52.3
 What is the percentage identity of the alignment with the mouse DLX5 protein: 96.5%
 The meaning of the residues highlighted in blue: amino acids that are identical in two sequences
 The meaning of the residues highlighted in grey: amino acids that are conservative substitution in two sequences
+Alignment result:
+=== human DLX5 vs mouse DLX5 ===
+The alignment score: 1490
+The percentage of identical amino acids: 96.53979238754326%
+=== human DLX5 vs random ===
+The alignment score: -246
+The percentage of identical amino acids: 4.844290657439446%
+=== mouse DLX5 vs random ===
+The alignment score: -249
+The percentage of identical amino acids: 4.844290657439446%
+statement: human and mouse sequences are most closely related
